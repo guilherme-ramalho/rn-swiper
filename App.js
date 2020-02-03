@@ -5,8 +5,8 @@ import { Container, CustomText } from './styles';
 
 export default function App() {
   return (
-    <Swiper showsButtons>
-      <Container color="#6234eb">
+    <Swiper showsPagination={false} showsButtons>
+      <Container color="#6324eb">
         <CustomText>View 1</CustomText>
       </Container>
       <Container color="#34ebc9">
